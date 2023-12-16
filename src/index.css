@@ -68,3 +68,6 @@ body {
   background-color: var(--purple);
   border-radius: 100px;
 }
+.opt-hover:hover {
+  color: green;
+}

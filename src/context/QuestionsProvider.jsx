@@ -10,7 +10,7 @@ const initialState = {
   answer: null,
   index: 0,
   points: 0,
-  secondRemaining: 10 * 30,
+  secondRemaining: 10 * 12,
 };
 
 function reducer(state, action) {

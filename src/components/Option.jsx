@@ -7,7 +7,7 @@ function Option({ option, dispatch, question, answer }) {
   return (
     <button
       className={`option flex items-center justify-between gap-[5px] ${
-        hasAnswered && "cursor-not-allowed"
+        hasAnswered && "cursor-not-allowed bg-blue-500 hover:bg-blue-700 text-white" 
       }`}
       onClick={() => dispatch({ type: "newAnswer", payload: option })}
       disabled={hasAnswered}

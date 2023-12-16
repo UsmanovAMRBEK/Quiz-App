@@ -46,12 +46,12 @@ function Question() {
 
           {answer && index < questionsNum - 1 ? (
             <Button onClick={() => dispatch({ type: "nextQuestion" })}>
-              Next Question
+              Keyingi savol
             </Button>
           ) : null}
 
           {answer && index === questionsNum - 1 ? (
-            <Button onClick={() => dispatch({ type: "finish" })}>Finish</Button>
+            <Button onClick={() => dispatch({ type: "finish" })}>Tugatish</Button>
           ) : null}
         </div>
       </div>
